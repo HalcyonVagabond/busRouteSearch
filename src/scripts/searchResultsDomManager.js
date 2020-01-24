@@ -18,6 +18,9 @@ const searchResultsDomManager = {
             container.innerHTML += this.busStopFactory(busStop)
             console.log('item added')
         });   
+        if (container.innerHTML == "") {
+            container.innerHTML = "No bus stop found . . . Search Again!"
+        }
         console.log(searchResults)
     }
     
