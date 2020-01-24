@@ -1,0 +1,58 @@
+h1 {
+    background-color: thistle;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-top: 3px ridge black;
+    border-bottom: 3px ridge black;
+}
+
+
+.searchBar {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#search-results {
+    width: 80%;
+    max-width: 600px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    border: 2px solid black;
+}
+
+
+.bus-stop {
+    margin: 5px;
+    background-color: thistle;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.bus-stop_route-name {
+    padding: 2px;
+    border-bottom: 1px solid black;
+}
+
+.bus-stop * {
+    margin: 10px;
+}
+
